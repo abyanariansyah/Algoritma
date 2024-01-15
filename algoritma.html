@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        
+    <script>
+// nomor 1
+        let bil1 = 100;
+        let bil2 = 200;
+        let bil3 = 300;
+
+        if(bil1>bil2 && bil1>bil3) {
+            console.log(bil1)
+        } else if(bil2>bil1 && bil2>bil3) {
+            console.log(bil2)
+        } else if(bil3>bil1 && bil3>bil2) {
+            console.log(bil3)
+        } else if(bil1==bil2 && bil1==bil3) {
+            console.log("semua bilangan sama")
+        }
+
+// nomor 3
+        let saklar = 1 ;
+
+        if(saklar == 1) {
+            console.log('ON')
+        } else if(saklar == 0) {
+            console.log("OFF")
+        } else {
+            console.log("masukan angka 1 atau 0")
+        }
+
+// nomor 2
+        let bilangan = 75;
+        
+        if(bilangan % 2 == 0) {
+            console.log("Genap")
+        } else {
+            console.log("Ganjil")
+        }
+
+        if(bilangan < 0 ) {
+            console.log("Negatif")
+        } else {
+            console.log("Positif")
+        }
+
+// nomor 4
+        let barang1 = 50000;
+        let barang2 = 75000;
+        let barang3 = 100000;
+        let total = barang1 + barang2 + barang3
+
+        diskon=10/100 * total
+        if(total > 100000) {
+            console.log(total - diskon)
+        }
+        else if(total < 100000) {
+            console.log(total)
+        }
+
+// nomor 5
+        let jam = 6;
+
+        if(jam<6) {
+            console.log("Rp.100.000.000")
+        } else if (jam == 6) {
+            console.log("Rp.200.000.000")
+        } else if (jam > 6) {
+            console.log("Rp.300.000.000")
+        }
+
+// nomor 6
+        let tinggi = 200;
+
+        if(tinggi <= 500.0) {
+            console.log("Aman")
+        } else if (tinggi >= 500.1 && tinggi <= 500.0) {
+            console.log("Waspada")
+        } else if (tinggi >= 600.1 && tinggi <= 650.0) {
+            console.log("Siaga 2")
+        } else if (tinggi > 650) {
+            console.log("Siaga 1")
+        }
+
+// penerimaan siswa baru
+        let jalur = "rapot";
+        let NilaiUN = prompt("Masukan Nilai UN");
+        let tesmandiri = 40;
+
+        if (NilaiUN >= 90 && NilaiUN <= 100) {
+            console.log("NILAI SEMPURNA DAN LULUS")
+        } else if (NilaiUN >= 80 && NilaiUN <= 89) {
+            if ( jalur = "prestasi") {
+                console.log("JALUR PRESTASI")
+            } else if (jalur == "rapot") {
+                console.log("JALUR RAPOT")
+            }
+        } else if (tesmandiri >= 49 && tesmandiri <= 100) {
+            console.log("TES LOLOS")
+        } else {
+            console.log("TES GAGAL")
+        }
+    </script>
+
+</body>
+</html>
